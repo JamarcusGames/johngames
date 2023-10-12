@@ -187,3 +187,11 @@ nav h1 {
     font-size: 5vw;
     text-shadow: 0 0 100px #2c7ffc;
     }
+
+    with:
+    source: ./docs
+    destination: ./docs/_site
+    token: ***
+    future: false
+    build_revision: 72b92472d42225165f04744ee1e1409bf4644c3e
+    verbose: true
